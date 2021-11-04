@@ -1,0 +1,26 @@
+#Koths v.1 by vaqle
+
+#The Level in which the Koths Will be Ran
+Level: "world"
+
+#This should be the first Corner of your koth.
+firstposition: "42:68:45"
+
+#This should be the second Corner of your koth.
+secondposition: "38:68:42"
+
+
+#IN MINUTES
+# * Example if I put 5 it will be 5 minutes
+#
+time-till-new-game: 5
+
+
+#Rewards example
+# rewards:
+#  - give {player} wood"
+#  - give {player} diamond
+
+#ALL THE REWARD COMMANDS WILL BE RAN! As i did not randomize a specific command If you want this feature Let me Know!
+rewards:
+  - "give {player} wood"
