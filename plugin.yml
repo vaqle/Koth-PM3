@@ -1,6 +1,6 @@
 name: "Koth"
 main: vale\koth\Main
 author: "vaqle"
-api: 1.0.0
+api: 3.0.0
 version: 1.0
 description: "Koth Plugin For Ancient Lands"
