@@ -21,7 +21,7 @@ class KothTask extends Task
 		foreach (Main::getInstance()->getServer()->getOnlinePlayers() as $player) {
 			if ($kmanager->isEnabled()) {
 				if (Main::getInstance()->isPositionInside($player->getPosition())
-					&& empty($kmanager->getData()) &&
+					&& empty($kmanager->getData()) && #TODO bad practice to use empty() apparently it blocks errors?
 					!$kmanager->isCurrentKothCaputer($player)) {
 					Main::getInstance()->getKuManager()->setCapturing($player, []);
 				}
